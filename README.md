@@ -115,4 +115,3 @@ This directory contains all the backend code for your application.
 - **Backend**: The Express server receives these requests. The routes defined in `routes.js` direct these requests to the appropriate controllers. `controller.js` processes these requests, often interacting with the `service.js` to perform business logic, such as validating user credentials against the information in `model/User.js`.
 - **Response**: The backend then sends a response back to the frontend, which updates the UI accordingly based on the received data.
 
-Each file and folder has a distinct purpose, making the application modular, maintainable, and scalable. This separation of concerns also makes it easier for teams to work on different parts of the application simultaneously.
